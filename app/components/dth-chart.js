@@ -4,6 +4,7 @@ import { action } from '@ember/object';
 import {
   forceSimulation,
   forceManyBody,
+  forceCollide,
   forceLink,
   forceCenter,
 } from 'd3-force';
@@ -87,6 +88,10 @@ export default class D3ChartComponent extends Component {
           .distance(200)
       )
       .force('charge', forceManyBody(-1000))
+      .force(
+        'collide',
+        forceCollide().radius((d) => d.r + 0.5)
+      )
       .force('center', forceCenter(200, 150));
 
     const linkElement = svg
