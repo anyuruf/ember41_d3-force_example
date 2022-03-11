@@ -1,7 +1,20 @@
-# broz
+# ember41_d3-force_example
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This README outlines the details an example intergration of Ember 4.1.1 with D3-Force pkg. Installed Ember-d3, d3, d3-force with the dependecies. 
+My ember-d3 hash# 'ember-d3': {
+      bundle: true,
+      only: [
+        'd3-force',
+        'd3-drag',
+        'd3-hierarchy',
+        'd3-fetch',
+        'd3-contour',
+        'd3-scale-chromatic',
+      ],
+    },
+In the /config/enviroment.js file. D3-force simulation object in the /app/components/dth-chart.js and imported the default drag function from /app/dthree/zdrag.js file.
+
+Please enjoy!!
 
 ## Prerequisites
 
@@ -15,7 +28,7 @@ You will need the following things properly installed on your computer.
 ## Installation
 
 * `git clone <repository-url>` this repository
-* `cd broz`
+* `cd to the cloned directory`
 * `npm install`
 
 ## Running / Development
