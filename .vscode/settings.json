@@ -1,0 +1,6 @@
+{
+    "typescript.tsserver.maxTsServerMemory": 256,
+    "typescript.suggest.classMemberSnippets.enabled": false,
+    "files.maxMemoryForLargeFilesMB": 512,
+    "editor.largeFileOptimizations": false
+}

@@ -21,6 +21,17 @@ module.exports = function (environment) {
       // Here you can pass flags/options to your application instance
       // when it is created
     },
+    'ember-d3': {
+      bundle: true,
+      only: [
+        'd3-force',
+        'd3-drag',
+        'd3-hierarchy',
+        'd3-fetch',
+        'd3-contour',
+        'd3-scale-chromatic',
+      ],
+    },
   };
 
   if (environment === 'development') {

@@ -29,6 +29,12 @@
     "@glimmer/tracking": "^1.0.4",
     "babel-eslint": "^10.1.0",
     "broccoli-asset-rev": "^3.0.0",
+    "d3": "^7.3.0",
+    "d3-contour": "^3.0.1",
+    "d3-drag": "^3.0.0",
+    "d3-fetch": "^3.0.1",
+    "d3-force": "^3.0.0",
+    "d3-scale-chromatic": "^3.0.0",
     "ember-auto-import": "^2.2.4",
     "ember-cli": "~4.1.0",
     "ember-cli-app-version": "^5.0.0",
@@ -38,6 +44,7 @@
     "ember-cli-inject-live-reload": "^2.1.0",
     "ember-cli-sri": "^2.1.1",
     "ember-cli-terser": "^4.0.2",
+    "ember-d3": "^0.5.1",
     "ember-data": "~4.1.0",
     "ember-export-application-global": "^2.0.1",
     "ember-fetch": "^8.1.1",
@@ -54,6 +61,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-qunit": "^7.2.0",
+    "exists-sync": "^0.1.0",
     "loader.js": "^4.7.0",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.5.1",
@@ -66,5 +74,10 @@
   },
   "ember": {
     "edition": "octane"
+  },
+  "dependencies": {
+    "@ember/render-modifiers": "^2.0.4",
+    "d3-selection": "^3.0.0",
+    "iirc": "^0.0.2"
   }
 }
